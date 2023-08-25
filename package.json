@@ -1,0 +1,21 @@
+{
+  "name": "fardeen-calc",
+  "version": "1.0.0",
+  "description": "calculator",
+  "main": "index.js",
+  "type": "module",
+  "bin":{"fardeen-calc":"app.js"},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Fardeen",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^20.5.4"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.10"
+  }
+}
